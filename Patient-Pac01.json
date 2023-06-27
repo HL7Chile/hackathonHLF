@@ -1,0 +1,53 @@
+{
+  "resourceType" : "Patient",
+  "id" : "Pac01",
+  "meta" : {
+    "profile" : ["https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PacienteHackaton"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Luke Anakin Skydancer </b> (no stated gender), DoB Unknown ( id:\u00a066666666-6\u00a0(use:\u00a0OFFICIAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:darth@empire.bad\">darth@empire.bad</a></li><li>Calle Sith, 4 Valparaíso Valparaíso </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <span>: Placilla</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local \"><a href=\"StructureDefinition-IdentidadGenero.html\">Identidad de Género:</a></td><td colspan=\"3\"><ul><li>7</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión de Sexdo biológico al nacer para Chile\"><a href=\"StructureDefinition-SexoNacimiento820.html\">Sexo biológico al nacer:</a></td><td colspan=\"3\"><ul><li>1</li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SexoNacimiento820",
+    "valueCode" : "1"
+  },
+  {
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/IdentidadGenero",
+    "valueCode" : "7"
+  }],
+  "identifier" : [{
+    "use" : "official",
+    "value" : "66666666-6"
+  }],
+  "name" : [{
+    "extension" : [{
+      "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SegundoApellido",
+      "valueString" : "Organa"
+    },
+    {
+      "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/NombreSocial",
+      "valueString" : "Darth"
+    }],
+    "family" : "Skydancer",
+    "given" : ["Luke",
+    "Anakin"]
+  }],
+  "telecom" : [{
+    "system" : "email",
+    "value" : "darth@empire.bad"
+  }],
+  "address" : [{
+    "extension" : [{
+      "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/TipoVia",
+      "valueCode" : "1"
+    }],
+    "line" : ["Calle Sith, 4"],
+    "city" : "Valparaíso",
+    "district" : "Valparaíso",
+    "state" : "Valparaíso"
+  }],
+  "generalPractitioner" : [{
+    "display" : "Placilla"
+  }]
+}

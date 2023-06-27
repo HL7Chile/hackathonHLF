@@ -1,0 +1,648 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "eddbc5e7-dcd2-4432-b5d9-b7e325afe89f",
+  "meta" : {
+    "lastUpdated" : "2023-06-26T21:09:05.994-04:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 68 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-EspecialidadMedicaCS.html\">Códigos para Especialidades Médicas v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-1\">1</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ANATOMÍA PATOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-2\">2</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ANESTESIOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-3\">3</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CARDIOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-4\">4</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA GENERAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-5\">5</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA DE CABEZA, CUELLO Y MAXILOFACIAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-6\">6</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA CARDIOVASCULAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-7\">7</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA DE TÓRAX</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-8\">8</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA PLÁSTICA Y REPARADORA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-9\">9</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-10\">10</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA VASCULAR PERIFÉRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-11\">11</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>COLOPROCTOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-12\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-12\">12</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>DERMATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-13\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-13\">13</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>DIABETOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-14\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-14\">14</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ENDOCRINOLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-15\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-15\">15</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ENDOCRINOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-16\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-16\">16</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ENFERMEDADES RESPIRATORIAS DEL ADULTO (BRONCOPULMONAR)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-17\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-17\">17</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ENFERMEDADES RESPIRATORIAS PEDIÁTRICAS (BRONCOPULMONAR PEDIATRICO)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-18\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-18\">18</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>GASTROENTEROLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-19\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-19\">19</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>GASTROENTEROLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-20\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-20\">20</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>GENÉTICA CLÍNICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-21\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-21\">21</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>GERIATRÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-22\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-22\">22</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>GINECOLOGÍA PEDIÁTRICA Y DE LA ADOLESCENCIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-23\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-23\">23</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>HEMATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-24\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-24\">24</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>IMAGENOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-25\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-25\">25</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>INFECTOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-26\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-26\">26</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>INMUNOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-27\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-27\">27</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>LABORATORIO CLÍNICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-28\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-28\">28</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA FAMILIAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-29\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-29\">29</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA FÍSICA Y REHABILITACIÓN (FISIATRIA ADULTO)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-30\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-30\">30</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA INTERNA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-31\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-31\">31</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA INTENSIVA ADULTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-32\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-32\">32</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA INTENSIVA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-33\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-33\">33</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA LEGAL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-34\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-34\">34</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA MATERNO INFANTIL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-35\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-35\">35</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA NUCLEAR</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-36\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-36\">36</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA DE URGENCIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-37\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-37\">37</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NEFROLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-38\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-38\">38</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NEFROLOGÍA PEDIÁTRICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-39\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-39\">39</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NEONATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-40\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-40\">40</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NEUROCIRUGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-41\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-41\">41</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NEUROLOGÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-42\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-42\">42</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NEUROLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-43\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-43\">43</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>OBSTETRICIA Y GINECOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-44\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-44\">44</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>OFTALMOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-45\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-45\">45</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>ONCOLOGÍA MÉDICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-46\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-46\">46</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>OTORRINOLARINGOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-47\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-47\">47</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>PEDIATRÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-48\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-48\">48</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>PSIQUIATRÍA ADULTO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-49\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-49\">49</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>PSIQUIATRÍA PEDIÁTRICA Y DE LA ADOLESCENCIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-50\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-50\">50</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>RADIOTERAPIA ONCOLÓGICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-51\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-51\">51</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>REUMATOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-52\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-52\">52</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>SALUD PÚBLICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-53\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-53\">53</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>TRAUMATOLOGÍA Y ORTOPEDIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-54\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-54\">54</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>UROLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-55\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-55\">55</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CARDIOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-56\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-56\">56</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA DIGESTIVA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-57\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-57\">57</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>CIRUGÍA PLASTICA Y REPARADORA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-58\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-58\">58</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>GINECOLOGÍA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-59\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-59\">59</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>HEMATO-ONCOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-60\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-60\">60</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>INFECTOLOGÍA PEDIATRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-61\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-61\">61</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA FAMILIAR DEL NIÑO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-62\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-62\">62</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>MEDICINA FISICA Y REHABILITACIÓN PEDIÁTRICA (FISIATRIA PEDIATRICA)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-63\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-63\">63</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NUTRIÓLOGO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-64\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-64\">64</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>NUTRIÓLOGO PEDIÁTRICO</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-65\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-65\">65</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>REUMATOLOGÍA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-66\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-66\">66</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>OBSTETRICIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-67\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-67\">67</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>TRAUMATOLOGÍA Y ORTOPEDIA PEDIÁTRICA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-EspecialidadMedicaCS-68\"> </a>\u00a0\u00a0<a href=\"CodeSystem-EspecialidadMedicaCS.html#EspecialidadMedicaCS-68\">68</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</td><td>UROLOGÍA PEDIÁTRICA</td></tr></table></div>"
+      },
+      "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS",
+      "version" : "0.1.0",
+      "name" : "EspecialidadMedicaVS",
+      "title" : "Códigos para especialidades médicas",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2022-01-18T00:00:00-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CL",
+          "display" : "Chile"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e48a6a5d-30b4-4b83-819c-06ab88a14387",
+        "timestamp" : "2023-06-26T21:09:40-04:00",
+        "total" : 68,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "1",
+          "display" : "ANATOMÍA PATOLÓGICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "2",
+          "display" : "ANESTESIOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "3",
+          "display" : "CARDIOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "4",
+          "display" : "CIRUGÍA GENERAL"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "5",
+          "display" : "CIRUGÍA DE CABEZA, CUELLO Y MAXILOFACIAL"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "6",
+          "display" : "CIRUGÍA CARDIOVASCULAR"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "7",
+          "display" : "CIRUGÍA DE TÓRAX"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "8",
+          "display" : "CIRUGÍA PLÁSTICA Y REPARADORA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "9",
+          "display" : "CIRUGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "10",
+          "display" : "CIRUGÍA VASCULAR PERIFÉRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "11",
+          "display" : "COLOPROCTOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "12",
+          "display" : "DERMATOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "13",
+          "display" : "DIABETOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "14",
+          "display" : "ENDOCRINOLOGÍA ADULTO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "15",
+          "display" : "ENDOCRINOLOGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "16",
+          "display" : "ENFERMEDADES RESPIRATORIAS DEL ADULTO (BRONCOPULMONAR)"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "17",
+          "display" : "ENFERMEDADES RESPIRATORIAS PEDIÁTRICAS (BRONCOPULMONAR PEDIATRICO)"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "18",
+          "display" : "GASTROENTEROLOGÍA ADULTO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "19",
+          "display" : "GASTROENTEROLOGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "20",
+          "display" : "GENÉTICA CLÍNICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "21",
+          "display" : "GERIATRÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "22",
+          "display" : "GINECOLOGÍA PEDIÁTRICA Y DE LA ADOLESCENCIA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "23",
+          "display" : "HEMATOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "24",
+          "display" : "IMAGENOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "25",
+          "display" : "INFECTOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "26",
+          "display" : "INMUNOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "27",
+          "display" : "LABORATORIO CLÍNICO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "28",
+          "display" : "MEDICINA FAMILIAR"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "29",
+          "display" : "MEDICINA FÍSICA Y REHABILITACIÓN (FISIATRIA ADULTO)"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "30",
+          "display" : "MEDICINA INTERNA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "31",
+          "display" : "MEDICINA INTENSIVA ADULTO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "32",
+          "display" : "MEDICINA INTENSIVA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "33",
+          "display" : "MEDICINA LEGAL"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "34",
+          "display" : "MEDICINA MATERNO INFANTIL"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "35",
+          "display" : "MEDICINA NUCLEAR"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "36",
+          "display" : "MEDICINA DE URGENCIA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "37",
+          "display" : "NEFROLOGÍA ADULTO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "38",
+          "display" : "NEFROLOGÍA PEDIÁTRICO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "39",
+          "display" : "NEONATOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "40",
+          "display" : "NEUROCIRUGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "41",
+          "display" : "NEUROLOGÍA ADULTO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "42",
+          "display" : "NEUROLOGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "43",
+          "display" : "OBSTETRICIA Y GINECOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "44",
+          "display" : "OFTALMOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "45",
+          "display" : "ONCOLOGÍA MÉDICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "46",
+          "display" : "OTORRINOLARINGOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "47",
+          "display" : "PEDIATRÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "48",
+          "display" : "PSIQUIATRÍA ADULTO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "49",
+          "display" : "PSIQUIATRÍA PEDIÁTRICA Y DE LA ADOLESCENCIA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "50",
+          "display" : "RADIOTERAPIA ONCOLÓGICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "51",
+          "display" : "REUMATOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "52",
+          "display" : "SALUD PÚBLICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "53",
+          "display" : "TRAUMATOLOGÍA Y ORTOPEDIA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "54",
+          "display" : "UROLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "55",
+          "display" : "CARDIOLOGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "56",
+          "display" : "CIRUGÍA DIGESTIVA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "57",
+          "display" : "CIRUGÍA PLASTICA Y REPARADORA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "58",
+          "display" : "GINECOLOGÍA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "59",
+          "display" : "HEMATO-ONCOLOGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "60",
+          "display" : "INFECTOLOGÍA PEDIATRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "61",
+          "display" : "MEDICINA FAMILIAR DEL NIÑO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "62",
+          "display" : "MEDICINA FISICA Y REHABILITACIÓN PEDIÁTRICA (FISIATRIA PEDIATRICA)"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "63",
+          "display" : "NUTRIÓLOGO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "64",
+          "display" : "NUTRIÓLOGO PEDIÁTRICO"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "65",
+          "display" : "REUMATOLOGÍA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "66",
+          "display" : "OBSTETRICIA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "67",
+          "display" : "TRAUMATOLOGÍA Y ORTOPEDIA PEDIÁTRICA"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+          "code" : "68",
+          "display" : "UROLOGÍA PEDIÁTRICA"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/SexoBiologicoVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-SexoBiologicoCS.html\">Códigos para Sexo de Nacimiento de Paciente v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-SexoBiologicoCS-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-SexoBiologicoCS.html#SexoBiologicoCS-1\">1</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS</td><td>Hombre</td><td><div><p>Persona que al nacer se observa anatómicamente que tiene a nivel genital pene, escroto y/o testículos.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-SexoBiologicoCS-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-SexoBiologicoCS.html#SexoBiologicoCS-2\">2</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS</td><td>Mujer</td><td><div><p>Persona que al nacerse se observa anatómicamente que tiene a nivel genital vulva u orificio vaginal.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-SexoBiologicoCS-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-SexoBiologicoCS.html#SexoBiologicoCS-3\">3</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS</td><td>Intersexual</td><td><div><p>Persona que al nacer se observa variaciones anatómicas en los órganos genitales del cuerpo que no permite clasificar de forma dicotómica en hombre o mujer. No constituye un tercer sexo.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-SexoBiologicoCS-99\"> </a>\u00a0\u00a0<a href=\"CodeSystem-SexoBiologicoCS.html#SexoBiologicoCS-99\">99</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS</td><td>Desconocido</td><td><div><p>No es posible determinarlo al momento de la atención de salud.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/SexoBiologicoVS",
+      "version" : "0.1.0",
+      "name" : "SexoBiologicoVS",
+      "title" : "Códigos para sexo biológico en Chile",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2022-01-18T00:00:00-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CL",
+          "display" : "Chile"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:897044b2-39e9-4e2e-8a2f-da71984fc6cf",
+        "timestamp" : "2023-06-26T21:09:40-04:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS",
+          "code" : "1",
+          "display" : "Hombre"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS",
+          "code" : "2",
+          "display" : "Mujer"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS",
+          "code" : "3",
+          "display" : "Intersexual"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS",
+          "code" : "99",
+          "display" : "Desconocido"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/TipoAtencionVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-TipoAtencionCS.html\">Códigos para Tipo de Atención v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-TipoAtencionCS-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TipoAtencionCS.html#TipoAtencionCS-1\">1</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS</td><td>Abierta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-TipoAtencionCS-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-TipoAtencionCS.html#TipoAtencionCS-2\">2</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS</td><td>Cerrada</td></tr></table></div>"
+      },
+      "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/TipoAtencionVS",
+      "version" : "0.1.0",
+      "name" : "TipoAtencionVS",
+      "title" : "Códigos para tipos de atención",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2022-01-18T00:00:00-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CL",
+          "display" : "Chile"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4179fda9-e893-40f5-91c5-2e32a7484e92",
+        "timestamp" : "2023-06-26T21:09:41-04:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS",
+          "code" : "1",
+          "display" : "Abierta"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS",
+          "code" : "2",
+          "display" : "Cerrada"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSIdentidadGenero",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSIdentidadGenero.html\">Códigos para Identidad de Género v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-1\">1</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>Masculino</td><td><div><p>La persona de sexo Hombre asignado al nacer, que se identifica a sí misma como de género masculino. También se le conoce como cisgénero masculino</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-2\">2</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>Femenina</td><td><div><p>La persona de sexo “ujer asignado al nacer, que se identifica a sí misma como de género femenina. También se le conoce como cisgénero femenina</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-4\">4</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>Transgénero Masculino</td><td><div><p>La persona de sexo Mujer asignado al nacer, que se identifica a sí misma como de género masculino.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-5\">5</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>Transgénero Femenina</td><td><div><p>La persona de sexo Hombre asignado al nacer, que se identifica a sí misma como de género femenina.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-6\">6</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>No binarie</td><td><div><p>La persona que no se identifica con ninguno de los géneros convencionales (femenina o masculino).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-7\">7</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>Otra</td><td><div><p>Otra identidad de género no descrita previamente.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSIdentidadGenero-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSIdentidadGenero.html#CSIdentidadGenero-8\">8</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</td><td>No Revelado</td><td><div><p>La persona no desea revelar su identidad de género</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSIdentidadGenero",
+      "version" : "0.1.0",
+      "name" : "VSIdentidadGenero",
+      "title" : "Identidad de Género",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2022-01-18T00:00:00-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CL",
+          "display" : "Chile"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d02155a8-0fc3-475d-b131-44cee2eec063",
+        "timestamp" : "2023-06-26T21:09:41-04:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "1",
+          "display" : "Masculino"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "2",
+          "display" : "Femenina"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "4",
+          "display" : "Transgénero Masculino"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "5",
+          "display" : "Transgénero Femenina"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "6",
+          "display" : "No binarie"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "7",
+          "display" : "Otra"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+          "code" : "8",
+          "display" : "No Revelado"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSVia",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CSVia.html\">Códigos para tipo de vía v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-1\">1</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Calle</td><td><div><p>Persona que al nacer se observa anatómicamente que tiene a nivel genital pene, escroto y/o testículos.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-2\">2</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Avenida</td><td><div><p>Persona que al nacerse se observa anatómicamente que tiene a nivel genital vulva u orificio vaginal.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-3\">3</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Pasaje</td><td><div><p>Persona que al nacer se observa variaciones anatómicas en los órganos genitales del cuerpo que no permite clasificar de forma dicotómica en hombre o mujer. No constituye un tercer sexo.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-4\">4</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Camino</td><td><div><p>No es posible determinarlo al momento de la atención de salud.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-5\">5</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Carretera</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-6\">6</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Callejón</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-7\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-7\">7</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Paseo</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-8\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-8\">8</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Escalera</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-9\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-9\">9</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Otro</td><td><div></div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-CSVia-10\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CSVia.html#CSVia-10\">10</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</td><td>Rotonda</td><td><div></div></td></tr></table></div>"
+      },
+      "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSVia",
+      "version" : "0.1.0",
+      "name" : "VSVia",
+      "title" : "Códigos para Vías en direccón",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2022-01-18T00:00:00-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CL",
+          "display" : "Chile"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:9a637ff5-5628-424f-b618-a476ef962e4c",
+        "timestamp" : "2023-06-26T21:09:41-04:00",
+        "total" : 10,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "1",
+          "display" : "Calle"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "2",
+          "display" : "Avenida"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "3",
+          "display" : "Pasaje"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "4",
+          "display" : "Camino"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "5",
+          "display" : "Carretera"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "6",
+          "display" : "Callejón"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "7",
+          "display" : "Paseo"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "8",
+          "display" : "Escalera"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "9",
+          "display" : "Otro"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+          "code" : "10",
+          "display" : "Rotonda"
+        }]
+      }
+    }
+  }]
+}

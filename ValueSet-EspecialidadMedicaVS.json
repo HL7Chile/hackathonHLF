@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "EspecialidadMedicaVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-EspecialidadMedicaCS.html\"><code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS</code></a></li></ul></div>"
+  },
+  "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS",
+  "version" : "0.1.0",
+  "name" : "EspecialidadMedicaVS",
+  "title" : "Códigos para especialidades médicas",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-01-18T00:00:00-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl/"
+    }]
+  }],
+  "description" : "Códigos para especialidades médicas en Chile según tabla 820.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS"
+    }]
+  }
+}

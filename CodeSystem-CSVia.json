@@ -1,0 +1,78 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSVia",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSVia-1\"> </a></td><td>Calle</td><td>Persona que al nacer se observa anatómicamente que tiene a nivel genital pene, escroto y/o testículos.</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSVia-2\"> </a></td><td>Avenida</td><td>Persona que al nacerse se observa anatómicamente que tiene a nivel genital vulva u orificio vaginal.</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSVia-3\"> </a></td><td>Pasaje</td><td>Persona que al nacer se observa variaciones anatómicas en los órganos genitales del cuerpo que no permite clasificar de forma dicotómica en hombre o mujer. No constituye un tercer sexo.</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSVia-4\"> </a></td><td>Camino</td><td>No es posible determinarlo al momento de la atención de salud.</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSVia-5\"> </a></td><td>Carretera</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSVia-6\"> </a></td><td>Callejón</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSVia-7\"> </a></td><td>Paseo</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSVia-8\"> </a></td><td>Escalera</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSVia-9\"> </a></td><td>Otro</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSVia-10\"> </a></td><td>Rotonda</td><td/></tr></table></div>"
+  },
+  "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+  "version" : "0.1.0",
+  "name" : "CSVia",
+  "title" : "Códigos para tipo de vía",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-01-18T00:00:00-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl/"
+    }]
+  }],
+  "description" : "Codigos definidos para tipos de via en direcciones",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Calle",
+    "definition" : "Persona que al nacer se observa anatómicamente que tiene a nivel genital pene, escroto y/o testículos."
+  },
+  {
+    "code" : "2",
+    "display" : "Avenida",
+    "definition" : "Persona que al nacerse se observa anatómicamente que tiene a nivel genital vulva u orificio vaginal."
+  },
+  {
+    "code" : "3",
+    "display" : "Pasaje",
+    "definition" : "Persona que al nacer se observa variaciones anatómicas en los órganos genitales del cuerpo que no permite clasificar de forma dicotómica en hombre o mujer. No constituye un tercer sexo."
+  },
+  {
+    "code" : "4",
+    "display" : "Camino",
+    "definition" : "No es posible determinarlo al momento de la atención de salud."
+  },
+  {
+    "code" : "5",
+    "display" : "Carretera"
+  },
+  {
+    "code" : "6",
+    "display" : "Callejón"
+  },
+  {
+    "code" : "7",
+    "display" : "Paseo"
+  },
+  {
+    "code" : "8",
+    "display" : "Escalera"
+  },
+  {
+    "code" : "9",
+    "display" : "Otro"
+  },
+  {
+    "code" : "10",
+    "display" : "Rotonda"
+  }]
+}

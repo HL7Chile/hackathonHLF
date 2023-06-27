@@ -1,0 +1,135 @@
+[
+  {
+    "id" : "CSIdentidadGenero",
+    "type" : "CodeSystem",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "CSIdentidadGenero"
+  },
+  {
+    "id" : "CSVia",
+    "type" : "CodeSystem",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia",
+    "version" : "0.1.0",
+    "name" : "CSVia"
+  },
+  {
+    "id" : "EspecialidadMedicaCS",
+    "type" : "CodeSystem",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
+    "version" : "0.1.0",
+    "name" : "EspecialidadMedicaCS"
+  },
+  {
+    "id" : "SexoBiologicoCS",
+    "type" : "CodeSystem",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS",
+    "version" : "0.1.0",
+    "name" : "SexoBiologicoCS"
+  },
+  {
+    "id" : "TipoAtencionCS",
+    "type" : "CodeSystem",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS",
+    "version" : "0.1.0",
+    "name" : "TipoAtencionCS"
+  },
+  {
+    "id" : "fhir.hackaton",
+    "type" : "ImplementationGuide",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton",
+    "version" : "0.1.0",
+    "name" : "HackatonHLF"
+  },
+  {
+    "id" : "CitasHackaton",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/CitasHackaton",
+    "version" : "0.1.0",
+    "name" : "CitasHackaton"
+  },
+  {
+    "id" : "IdentidadGenero",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/IdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "IdentidadGenero"
+  },
+  {
+    "id" : "NombreSocial",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/NombreSocial",
+    "version" : "0.1.0",
+    "name" : "NombreSocial"
+  },
+  {
+    "id" : "PacienteHackaton",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PacienteHackaton",
+    "version" : "0.1.0",
+    "name" : "PacienteHackaton"
+  },
+  {
+    "id" : "PrestadorHackaton",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PrestadorHackaton",
+    "version" : "0.1.0",
+    "name" : "PrestadorHackaton"
+  },
+  {
+    "id" : "SegundoApellido",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SegundoApellido",
+    "version" : "0.1.0",
+    "name" : "SegundoApellido"
+  },
+  {
+    "id" : "SexoNacimiento820",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SexoNacimiento820",
+    "version" : "0.1.0",
+    "name" : "SexoNacimiento820"
+  },
+  {
+    "id" : "TipoVia",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/TipoVia",
+    "version" : "0.1.0",
+    "name" : "TipoVia"
+  },
+  {
+    "id" : "EspecialidadMedicaVS",
+    "type" : "ValueSet",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS",
+    "version" : "0.1.0",
+    "name" : "EspecialidadMedicaVS"
+  },
+  {
+    "id" : "SexoBiologicoVS",
+    "type" : "ValueSet",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/SexoBiologicoVS",
+    "version" : "0.1.0",
+    "name" : "SexoBiologicoVS"
+  },
+  {
+    "id" : "TipoAtencionVS",
+    "type" : "ValueSet",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/TipoAtencionVS",
+    "version" : "0.1.0",
+    "name" : "TipoAtencionVS"
+  },
+  {
+    "id" : "VSIdentidadGenero",
+    "type" : "ValueSet",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSIdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "VSIdentidadGenero"
+  },
+  {
+    "id" : "VSVia",
+    "type" : "ValueSet",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSVia",
+    "version" : "0.1.0",
+    "name" : "VSVia"
+  }
+]

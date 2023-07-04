@@ -14,7 +14,7 @@
   "name" : "TipoVia",
   "title" : "Tipo de Vía",
   "status" : "draft",
-  "date" : "2023-06-26T21:09:05-04:00",
+  "date" : "2023-07-04T17:18:33-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -34,7 +34,7 @@
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "Element"
+    "expression" : "Patient.address"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",

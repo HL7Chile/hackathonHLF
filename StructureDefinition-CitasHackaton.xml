@@ -31,7 +31,7 @@
   <version value="0.1.0"/>
   <name value="CitasHackaton"/>
   <status value="draft"/>
-  <date value="2023-06-26T21:09:05-04:00"/>
+  <date value="2023-07-04T17:18:33-04:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -973,9 +973,6 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true"/>
-      </extension>
       <path value="Appointment.serviceCategory.coding.display"/>
       <short value="Glosa asociada al código"/>
       <definition value="A representation of the meaning of the code in the system, following the rules of the system."/>
@@ -1052,9 +1049,6 @@
       </mapping>
     </element>
     <element id="Appointment.serviceCategory.text">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true"/>
-      </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -1480,9 +1474,6 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true"/>
-      </extension>
       <path value="Appointment.specialty.coding.display"/>
       <short value="Glosa asociada al código"/>
       <definition value="A representation of the meaning of the code in the system, following the rules of the system."/>
@@ -1559,9 +1550,6 @@
       </mapping>
     </element>
     <element id="Appointment.specialty.text">
-      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-        <valueBoolean value="true"/>
-      </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>

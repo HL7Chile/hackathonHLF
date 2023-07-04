@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CitasHackaton",
   "status" : "draft",
-  "date" : "2023-06-26T21:09:05-04:00",
+  "date" : "2023-07-04T17:18:33-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -986,10 +986,6 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
       }],
       "path" : "Appointment.serviceCategory.coding.display",
       "short" : "Glosa asociada al código",
@@ -1070,10 +1066,6 @@
     {
       "id" : "Appointment.serviceCategory.text",
       "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
-      },
-      {
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
       }],
@@ -1514,10 +1506,6 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
       }],
       "path" : "Appointment.specialty.coding.display",
       "short" : "Glosa asociada al código",
@@ -1598,10 +1586,6 @@
     {
       "id" : "Appointment.specialty.text",
       "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
-      },
-      {
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
       }],

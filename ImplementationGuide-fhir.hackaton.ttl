@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HackatonHLF"] ; # 
   fhir:title [ fhir:v "Guía de Implementación Hackaton HLF 2023"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-26T21:09:05-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-04T17:18:33-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;
@@ -472,7 +472,7 @@
          fhir:reference [ fhir:v "StructureDefinition/IdentidadGenero" ]
        ] ;
        fhir:name [ fhir:v "Identidad de Género" ] ;
-       fhir:description [ fhir:v "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local " ] ;
+       fhir:description [ fhir:v "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -556,6 +556,11 @@
          fhir:source [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [ fhir:v "descargas.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "descargas.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Descargas" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

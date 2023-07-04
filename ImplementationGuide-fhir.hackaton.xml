@@ -11,7 +11,7 @@
   <name value="HackatonHLF"/>
   <title value="Guía de Implementación Hackaton HLF 2023"/>
   <status value="draft"/>
-  <date value="2023-06-26T21:09:05-04:00"/>
+  <date value="2023-07-04T17:18:33-04:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -401,7 +401,7 @@
         <reference value="StructureDefinition/IdentidadGenero"/>
       </reference>
       <name value="Identidad de Género"/>
-      <description value="Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local "/>
+      <description value="Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -479,6 +479,12 @@
         <sourceUrl value="index.html"/>
         <name value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="descargas.html"/>
+        <name value="descargas.html"/>
+        <title value="Descargas"/>
         <generation value="markdown"/>
       </page>
     </page>

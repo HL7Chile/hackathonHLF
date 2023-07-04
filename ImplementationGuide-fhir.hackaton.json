@@ -10,7 +10,7 @@
   "name" : "HackatonHLF",
   "title" : "Guía de Implementación Hackaton HLF 2023",
   "status" : "draft",
-  "date" : "2023-06-26T21:09:05-04:00",
+  "date" : "2023-07-04T17:18:33-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -492,7 +492,7 @@
         "reference" : "StructureDefinition/IdentidadGenero"
       },
       "name" : "Identidad de Género",
-      "description" : "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local ",
+      "description" : "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local",
       "isExample" : false
     },
     {
@@ -576,6 +576,12 @@
         "sourceUrl" : "index.html",
         "name" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "descargas.html",
+        "name" : "descargas.html",
+        "title" : "Descargas",
         "generation" : "markdown"
       }]
     },

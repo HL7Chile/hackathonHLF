@@ -66,14 +66,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"3.19"
+            --heading-prefix:"4.23"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"3.19"
+            --heading-prefix:"4.23"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -135,6 +135,9 @@
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="casosUso.html">Casos Uso</a>
   </li>
   <li>
     <a href="descargas.html">Descargas</a>
@@ -220,18 +223,6 @@
 
 
 <h2 id="root">: Ejemplo de Recurso Cita Hackathon - TTL Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 <p><a href="Appointment-EjCitaHack.ttl" no-download="true">Raw ttl</a> | <a href="Appointment-EjCitaHack.ttl" download>Download</a></p>
@@ -259,7 +250,7 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Appointment&lt;/b&gt;&lt;a name=\&quot;EjCitaHack\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Appointment &amp;quot;EjCitaHack&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-CitasHackaton.html\&quot;&gt;CitasHackaton&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: booked&lt;/p&gt;&lt;p&gt;&lt;b&gt;serviceCategory&lt;/b&gt;: Cerrada &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-TipoAtencionCS.html\&quot;&gt;Códigos para Tipo de Atención&lt;/a&gt;#2)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specialty&lt;/b&gt;: DERMATOLOGÍA &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-EspecialidadMedicaCS.html\&quot;&gt;Códigos para Especialidades Médicas&lt;/a&gt;#12)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;start&lt;/b&gt;: 22-08-2023 16:00:00&lt;/p&gt;&lt;p&gt;&lt;b&gt;end&lt;/b&gt;: 22-08-2023 16:30:00&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-Pac01.html\&quot;&gt;Patient/Pac01&lt;/a&gt; &amp;quot; SKYDANCER&amp;quot;&lt;/p&gt;&lt;h3&gt;Participants&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Practitioner-PR1.html\&quot;&gt;Practitioner/PR1&lt;/a&gt; &amp;quot;&amp;quot;&lt;/td&gt;&lt;td&gt;accepted&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Appointment&lt;/b&gt;&lt;a name=\&quot;EjCitaHack\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Appointment &amp;quot;EjCitaHack&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-CitasHackaton.html\&quot;&gt;CitasHackaton&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: booked&lt;/p&gt;&lt;p&gt;&lt;b&gt;serviceCategory&lt;/b&gt;: Cerrada &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-TipoAtencionCS.html\&quot;&gt;Códigos para Tipo de Atención&lt;/a&gt;#2)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specialty&lt;/b&gt;: DERMATOLOGÍA &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-EspecialidadMedicaCS.html\&quot;&gt;Códigos para Especialidades Médicas&lt;/a&gt;#12)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;start&lt;/b&gt;: 22-08-2023 16:00:00&lt;/p&gt;&lt;p&gt;&lt;b&gt;end&lt;/b&gt;: 22-08-2023 16:30:00&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-Pac007.html\&quot;&gt;Patient/Pac007&lt;/a&gt; &amp;quot; SKYDANCER&amp;quot;&lt;/p&gt;&lt;h3&gt;Participants&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Practitioner-PR1.html\&quot;&gt;Practitioner/PR1&lt;/a&gt; &amp;quot; PLISKIN&amp;quot;&lt;/td&gt;&lt;td&gt;accepted&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;booked&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.serviceCategory">fhir:serviceCategory</a> ( [
@@ -277,7 +268,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> &quot;2023-08-22T16:00:00-04:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.end">fhir:end</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#instant">fhir:v</a> &quot;2023-08-22T16:30:00-04:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Patient/Pac01&quot; ]
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Patient/Pac007&quot; ]
   ] ; # 
   <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.participant">fhir:participant</a> ( [
 <a href="http://hl7.org/fhir/R5/appointment.html#Appointment.participant.actor">fhir:actor</a> [
@@ -316,7 +307,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/">HL7 Chile</a>.  Package fhir.hackaton#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jul 4, 2023 17:18-0400">2023-07-04</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/">HL7 Chile</a>.  Package fhir.hackaton#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Jul 19, 2023 16:02-0400">2023-07-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |

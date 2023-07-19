@@ -64,14 +64,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"3.1"
+            --heading-prefix:"4.2"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"3.1"
+            --heading-prefix:"4.2"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -131,6 +131,9 @@
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="casosUso.html">Casos Uso</a>
   </li>
   <li>
     <a href="descargas.html">Descargas</a>
@@ -244,6 +247,7 @@
 
 <a name="root"> </a>
 <h2 id="root">Resource Profile: CitasHackaton - Detailed Descriptions</h2>
+
   <table class="colsd">
     <tr>
 
@@ -251,7 +255,7 @@
         
           Draft
           
-            as of 2023-07-04
+            as of 2023-07-19
           
         
       </td>
@@ -285,8 +289,11 @@
 <table class="dict">
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment"> </a><span style="color: grey">1.</span> <b>Appointment</b><a href="#diff_Appointment" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment.status"> </a><span style="color: grey">2.</span> <b>Appointment.status</b><a href="#diff_Appointment.status" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
-  <tr><td>Definition</td><td><p>Estado de la Cita según códigos HL7</p>
+  <tr><td>Definition</td><td><p>Estado de la Cita según códigos HL7, es un elemento obligatorio</p>
 <span style="color:DarkGray;text-decoration:line-through"><p>The overall status of the Appointment. Each of the participants has their own participation status which indicates their involvement in the process, however this status indicates the shared status.</p>
+</span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><br/><p>Códigos definidos por estándar</p>
+<span style="color:DarkGray;text-decoration:line-through"><p>The free/busy status of an appointment.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment.serviceCategory"> </a><span style="color: grey">3.</span> <b>Appointment.serviceCategory</b><a href="#diff_Appointment.serviceCategory" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
@@ -294,7 +301,9 @@
 <span style="color:DarkGray;text-decoration:line-through"><p>A broad categorization of the service that is to be performed during this appointment.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1<span style="color:DarkGray;text-decoration:line-through">0</span>..1<span style="color:DarkGray;text-decoration:line-through">*</span></td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-TipoAtencionVS.html">Códigos para tipos de atención</a><span style="color:DarkGray;text-decoration:line-through">For example codes, see <a href="http://hl7.org/fhir/R5/valueset-service-category.html">ServiceCategory</a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-TipoAtencionVS.html">Códigos para tipos de atención</a><span style="color:DarkGray;text-decoration:line-through">For example codes, see <a href="http://hl7.org/fhir/R5/valueset-service-category.html">ServiceCategory</a></span>
+Códigos definidos localment
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment.serviceCategory.coding"> </a><span style="color: grey">4.</span> <b>Appointment.serviceCategory.coding</b><a href="#diff_Appointment.serviceCategory.coding" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
@@ -311,7 +320,9 @@
 <span style="color:DarkGray;text-decoration:line-through"><p>The specialty of a practitioner that would be required to perform the service requested in this appointment.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1<span style="color:DarkGray;text-decoration:line-through">0</span>..1<span style="color:DarkGray;text-decoration:line-through">*</span></td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-EspecialidadMedicaVS.html">Códigos para especialidades médicas</a><span style="color:DarkGray;text-decoration:line-through">The codes SHOULD be taken from <a href="http://hl7.org/fhir/R5/valueset-c80-practice-codes.html">PracticeSettingCodeValueSet</a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-EspecialidadMedicaVS.html">Códigos para especialidades médicas</a><span style="color:DarkGray;text-decoration:line-through">The codes SHOULD be taken from <a href="http://hl7.org/fhir/R5/valueset-c80-practice-codes.html">PracticeSettingCodeValueSet</a></span>
+Códigos definidos localment
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment.specialty.coding"> </a><span style="color: grey">10.</span> <b>Appointment.specialty.coding</b><a href="#diff_Appointment.specialty.coding" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
@@ -353,6 +364,9 @@
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment.participant.actor.reference"> </a><span style="color: grey">21.</span> <b>Appointment.participant.actor.reference</b><a href="#diff_Appointment.participant.actor.reference" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..?</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="diff_Appointment.participant.status"> </a><span style="color: grey">22.</span> <b>Appointment.participant.status</b><a href="#diff_Appointment.participant.status" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><br/><p>Códigos definidos por estándar</p>
+<span style="color:DarkGray;text-decoration:line-through"><p>The Participation status of an appointment.</p>
+</span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Pattern Value</td><td>accepted</td></tr>
 </table>
@@ -406,11 +420,13 @@
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: <span style="color:DarkGray">All FHIR elements must have a @value or children</span> (: <span style="color:DarkGray">hasValue() or (children().count() &gt; id.count())</span>)<br/><b title="Formal Invariant Identifier">ext-1</b>: <span style="color:DarkGray">Must have either extensions or value[x], not both</span> (: <span style="color:DarkGray">extension.exists() != value.exists()</span>)</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="key_Appointment.status"> </a><span style="color: grey">5.</span> <b>Appointment.status</b><a href="#key_Appointment.status" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
-  <tr><td>Definition</td><td><p>Estado de la Cita según códigos HL7</p>
+  <tr><td>Definition</td><td><p>Estado de la Cita según códigos HL7, es un elemento obligatorio</p>
 <span style="color:DarkGray;text-decoration:line-through"><p>The overall status of the Appointment. Each of the participants has their own participation status which indicates their involvement in the process, however this status indicates the shared status.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td><span style="color:DarkGray">1</span>..<span style="color:DarkGray">1</span> This element is affected by the following invariants: <span style="color:DarkGray">app-4</span>, <span style="color:DarkGray">app-3</span>, <span style="color:DarkGray">app-7</span></td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><span style="color:DarkGray">The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-appointmentstatus.html">AppointmentStatus</a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><span style="color:DarkGray">The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-appointmentstatus.html">AppointmentStatus</a></span><br/><p>Códigos definidos por estándar</p>
+<span style="color:DarkGray;text-decoration:line-through"><p>The free/busy status of an appointment.</p>
+</span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><span style="color:DarkGray"><a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/elementdefinition.html#primitives">Primitive Value</a></td><td>This primitive element may be present, or absent, or replaced by an extension</td></tr>
@@ -426,7 +442,9 @@
 <span style="color:DarkGray;text-decoration:line-through"><p>A broad categorization of the service that is to be performed during this appointment.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1<span style="color:DarkGray;text-decoration:line-through">0</span>..1<span style="color:DarkGray;text-decoration:line-through">*</span></td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-TipoAtencionVS.html">Códigos para tipos de atención</a><span style="color:DarkGray;text-decoration:line-through">For example codes, see <a href="http://hl7.org/fhir/R5/valueset-service-category.html">ServiceCategory</a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-TipoAtencionVS.html">Códigos para tipos de atención</a><span style="color:DarkGray;text-decoration:line-through">For example codes, see <a href="http://hl7.org/fhir/R5/valueset-service-category.html">ServiceCategory</a></span>
+Códigos definidos localment
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><span style="color:DarkGray"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/search.html#summary">Summary</a></td><td>true</td></tr>
@@ -500,7 +518,9 @@
 <span style="color:DarkGray;text-decoration:line-through"><p>The specialty of a practitioner that would be required to perform the service requested in this appointment.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1<span style="color:DarkGray;text-decoration:line-through">0</span>..1<span style="color:DarkGray;text-decoration:line-through">*</span></td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-EspecialidadMedicaVS.html">Códigos para especialidades médicas</a><span style="color:DarkGray;text-decoration:line-through">The codes SHOULD be taken from <a href="http://hl7.org/fhir/R5/valueset-c80-practice-codes.html">PracticeSettingCodeValueSet</a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-EspecialidadMedicaVS.html">Códigos para especialidades médicas</a><span style="color:DarkGray;text-decoration:line-through">The codes SHOULD be taken from <a href="http://hl7.org/fhir/R5/valueset-c80-practice-codes.html">PracticeSettingCodeValueSet</a></span>
+Códigos definidos localment
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><span style="color:DarkGray"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/search.html#summary">Summary</a></td><td>true</td></tr>
@@ -667,7 +687,9 @@
   <tr><td>Definition</td><td><span style="color:DarkGray"><p>Participation status of the actor.</p>
 </span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td><span style="color:DarkGray">1</span>..<span style="color:DarkGray">1</span></td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><span style="color:DarkGray">The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-participationstatus.html">ParticipationStatus</a></span></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><span style="color:DarkGray">The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-participationstatus.html">ParticipationStatus</a></span><br/><p>Códigos definidos por estándar</p>
+<span style="color:DarkGray;text-decoration:line-through"><p>The Participation status of an appointment.</p>
+</span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><span style="color:DarkGray"><a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/elementdefinition.html#primitives">Primitive Value</a></td><td>This primitive element may be present, or absent, or replaced by an extension</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
@@ -785,10 +807,12 @@ IETF language tag for a human languag
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="Appointment.status"> </a><span style="color: grey">11.</span> <b>Appointment.status</b><a href="#Appointment.status" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
-  <tr><td>Definition</td><td><p>Estado de la Cita según códigos HL7</p>
+  <tr><td>Definition</td><td><p>Estado de la Cita según códigos HL7, es un elemento obligatorio</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..1 This element is affected by the following invariants: app-4, app-3, app-7</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-appointmentstatus.html">AppointmentStatus</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-appointmentstatus.html">AppointmentStatus</a>
+Códigos definidos por estánda
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/elementdefinition.html#primitives">Primitive Value</a></td><td>This primitive element may be present, or absent, or replaced by an extension</td></tr>
@@ -812,7 +836,7 @@ IETF language tag for a human languag
   <tr><td>Definition</td><td><p>Concepts representing classification of patient encounter such as ambulatory (outpatient), inpatient, emergency, home health or others due to local variations.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><a name="l4540">​</a>The codes SHOULD be taken from <a href="http://terminology.hl7.org/ValueSet/EncounterClass">http://terminology.hl7.org/ValueSet/EncounterClass</a>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td><a name="l4595">​</a>The codes SHOULD be taken from <a href="http://terminology.hl7.org/ValueSet/EncounterClass">http://terminology.hl7.org/ValueSet/EncounterClass</a>
 Classification of the encounter
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
@@ -823,7 +847,9 @@ Classification of the encounter
   <tr><td>Definition</td><td><p>Define la categoría del servicio la cual entenderemos como el tipo de atención en texto libre</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-TipoAtencionVS.html">Códigos para tipos de atención</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-TipoAtencionVS.html">Códigos para tipos de atención</a>
+Códigos definidos localment
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/search.html#summary">Summary</a></td><td>true</td></tr>
@@ -970,7 +996,9 @@ Classification of the encounter
   <tr><td>Definition</td><td><p>Define la especialidad médica sobre la cual se realiza la cita médica</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-EspecialidadMedicaVS.html">Códigos para especialidades médicas</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-EspecialidadMedicaVS.html">Códigos para especialidades médicas</a>
+Códigos definidos localment
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/search.html#summary">Summary</a></td><td>true</td></tr>
@@ -1555,7 +1583,9 @@ Aa resource (or, for logical models, the URI of the logical model)
   <tr><td>Definition</td><td><p>Participation status of the actor.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-participationstatus.html">ParticipationStatus</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R5/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R5/valueset-participationstatus.html">ParticipationStatus</a>
+Códigos definidos por estánda
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R5/datatypes.html#code">code</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/elementdefinition.html#primitives">Primitive Value</a></td><td>This primitive element may be present, or absent, or replaced by an extension</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R5/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
@@ -1998,7 +2028,7 @@ The days of the week
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/">HL7 Chile</a>.  Package fhir.hackaton#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jul 4, 2023 17:18-0400">2023-07-04</span>
+          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/">HL7 Chile</a>.  Package fhir.hackaton#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Jul 19, 2023 16:02-0400">2023-07-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |

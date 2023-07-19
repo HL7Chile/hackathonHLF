@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ClaseAtencionCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="ClaseAtencionCS-1"> </a></td><td>Hospitalizada</td></tr><tr><td style="white-space:nowrap">2<a name="ClaseAtencionCS-2"> </a></td><td>Ambulatoria</td></tr><tr><td style="white-space:nowrap">3<a name="ClaseAtencionCS-3"> </a></td><td>Observación</td></tr><tr><td style="white-space:nowrap">4<a name="ClaseAtencionCS-4"> </a></td><td>Urgencia</td></tr><tr><td style="white-space:nowrap">5<a name="ClaseAtencionCS-5"> </a></td><td>Virtual</td></tr></table></div>
+  </text>
+  <url value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
+  <version value="0.1.0"/>
+  <name value="ClaseAtencionCS"/>
+  <title value="Códigos para clase  de Atención"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-01-18T00:00:00-03:00"/>
+  <publisher value="HL7 Chile"/>
+  <contact>
+    <name value="HL7 Chile"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://hl7chile.cl/"/>
+    </telecom>
+  </contact>
+  <description value="Códigos definidos para la clase de atención especificada"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="1"/>
+    <display value="Hospitalizada"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Ambulatoria"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Observación"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Urgencia"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Virtual"/>
+  </concept>
+</CodeSystem>

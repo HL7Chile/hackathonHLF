@@ -1,0 +1,40 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "EjemploBundle",
+  "meta" : {
+    "profile" : ["https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton"]
+  },
+  "type" : "searchset",
+  "total" : 1,
+  "link" : [{
+    "relation" : "self",
+    "url" : "https://hapi.fhir.org/baseR5/Patient?family=Smith"
+  }],
+  "entry" : [{
+    "fullUrl" : "https://hapi.fhir.org/baseR5/Patient/2853",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "2853",
+      "meta" : {
+        "versionId" : "1",
+        "lastUpdated" : "2022-05-14T05:52:07.726+00:00",
+        "source" : "#Wdp7zpMHsIT0WMNy"
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"2853\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;2853&quot; Version &quot;1&quot; Updated &quot;2022-05-14 05:52:07+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #Wdp7zpMHsIT0WMNy!</p></div><p><b>identifier</b>: id:\u00a012345</p><p><b>name</b>: John Smith </p></div>"
+      },
+      "identifier" : [{
+        "system" : "urn:system",
+        "value" : "12345"
+      }],
+      "name" : [{
+        "family" : "Smith",
+        "given" : ["John"]
+      }]
+    },
+    "search" : {
+      "mode" : "match"
+    }
+  }]
+}

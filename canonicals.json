@@ -14,6 +14,13 @@
     "name" : "CSVia"
   },
   {
+    "id" : "ClaseAtencionCS",
+    "type" : "CodeSystem",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+    "version" : "0.1.0",
+    "name" : "ClaseAtencionCS"
+  },
+  {
     "id" : "EspecialidadMedicaCS",
     "type" : "CodeSystem",
     "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS",
@@ -40,6 +47,13 @@
     "url" : "https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton",
     "version" : "0.1.0",
     "name" : "HackatonHLF"
+  },
+  {
+    "id" : "BundleHackaton",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton",
+    "version" : "0.1.0",
+    "name" : "BundleHackaton"
   },
   {
     "id" : "CitasHackaton",
@@ -96,6 +110,20 @@
     "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/TipoVia",
     "version" : "0.1.0",
     "name" : "TipoVia"
+  },
+  {
+    "id" : "registro-hosp",
+    "type" : "StructureDefinition",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp",
+    "version" : "0.1.0",
+    "name" : "RegistroHospitalizacion"
+  },
+  {
+    "id" : "ClaseAtencionVS",
+    "type" : "ValueSet",
+    "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS",
+    "version" : "0.1.0",
+    "name" : "ClaseAtencionVS"
   },
   {
     "id" : "EspecialidadMedicaVS",

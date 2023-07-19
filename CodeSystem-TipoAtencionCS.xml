@@ -20,7 +20,7 @@
       <value value="https://hl7chile.cl/"/>
     </telecom>
   </contact>
-  <description value="Codigos definidos para los tipos de atención"/>
+  <description value="Códigos definidos para los tipos de atención"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

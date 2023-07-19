@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Appointment</b><a name=\"EjCitaHack\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Appointment &quot;EjCitaHack&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CitasHackaton.html\">CitasHackaton</a></p></div><p><b>status</b>: booked</p><p><b>serviceCategory</b>: Cerrada <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-TipoAtencionCS.html\">Códigos para Tipo de Atención</a>#2)</span></p><p><b>specialty</b>: DERMATOLOGÍA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-EspecialidadMedicaCS.html\">Códigos para Especialidades Médicas</a>#12)</span></p><p><b>start</b>: 22-08-2023 16:00:00</p><p><b>end</b>: 22-08-2023 16:30:00</p><p><b>subject</b>: <a href=\"Patient-Pac01.html\">Patient/Pac01</a> &quot; SKYDANCER&quot;</p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td><td><b>Status</b></td></tr><tr><td>*</td><td><a href=\"Practitioner-PR1.html\">Practitioner/PR1</a> &quot;&quot;</td><td>accepted</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Appointment</b><a name=\"EjCitaHack\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Appointment &quot;EjCitaHack&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-CitasHackaton.html\">CitasHackaton</a></p></div><p><b>status</b>: booked</p><p><b>serviceCategory</b>: Cerrada <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-TipoAtencionCS.html\">Códigos para Tipo de Atención</a>#2)</span></p><p><b>specialty</b>: DERMATOLOGÍA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-EspecialidadMedicaCS.html\">Códigos para Especialidades Médicas</a>#12)</span></p><p><b>start</b>: 22-08-2023 16:00:00</p><p><b>end</b>: 22-08-2023 16:30:00</p><p><b>subject</b>: <a href=\"Patient-Pac007.html\">Patient/Pac007</a> &quot; SKYDANCER&quot;</p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td><td><b>Status</b></td></tr><tr><td>*</td><td><a href=\"Practitioner-PR1.html\">Practitioner/PR1</a> &quot; PLISKIN&quot;</td><td>accepted</td></tr></table></div>"
   },
   "status" : "booked",
   "serviceCategory" : [{
@@ -26,7 +26,7 @@
   "start" : "2023-08-22T16:00:00-04:00",
   "end" : "2023-08-22T16:30:00-04:00",
   "subject" : {
-    "reference" : "Patient/Pac01"
+    "reference" : "Patient/Pac007"
   },
   "participant" : [{
     "actor" : {

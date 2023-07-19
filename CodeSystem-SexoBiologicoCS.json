@@ -20,7 +20,7 @@
       "value" : "https://hl7chile.cl/"
     }]
   }],
-  "description" : "Codigos definidos para el sexo de nacimiento de un paciente en Chile",
+  "description" : "Códigos definidos para el sexo de nacimiento de un paciente en Chile",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

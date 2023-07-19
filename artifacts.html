@@ -64,14 +64,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"3"
+            --heading-prefix:"4"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"3.0"
+            --heading-prefix:"4.0"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -133,6 +133,9 @@
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="casosUso.html">Casos Uso</a>
   </li>
   <li>
     <a href="descargas.html">Descargas</a>
@@ -221,6 +224,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-BundleHackaton.html"
+                     title="StructureDefinition/BundleHackaton">BundleHackaton</a>
+               </td>
+               <td>
+<p>Perfil para un empaquetador de recursos FHIR</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-CitasHackaton.html"
                      title="StructureDefinition/CitasHackaton">CitasHackaton</a>
                </td>
@@ -234,7 +246,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/PacienteHackaton">PacienteHackaton</a>
                </td>
                <td>
-<p>Paciente a ser usado en la Hackatón HLF</p>
+<p>Paciente a ser usado en la Hackatón HLF. Contiene datos mínimos especificados para cumplir normativas nacionales</p>
 </td>
             </tr>
             <tr>
@@ -243,7 +255,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/PrestadorHackaton">PrestadorHackaton</a>
                </td>
                <td>
-<p>Prestador a ser usado en la Hackatón HLF</p>
+<p>Prestador a ser usado en la Hackatón HLF. Contiene datos mínimos para mantener coherencia con la normativa nacional</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-registro-hosp.html"
+                     title="StructureDefinition/registro-hosp">Registro de Episodios de Hospitalización</a>
+               </td>
+               <td>
+<p>Perfil del recurso Encounter para el registro de episodios hospitalizaciones de paciente</p>
 </td>
             </tr>
          </tbody>
@@ -282,7 +303,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/NombreSocial">Nombre Social de Paciente</a>
                </td>
                <td>
-<p>Esta extensión permite agregar un nombre social al paciente</p>
+<p>Esta extensión permite agregar un nombre social al paciente. Se define como nombre social aquel con el cual el/la paciente se reconoce a si mismo/a</p>
 </td>
             </tr>
             <tr>
@@ -291,7 +312,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/SexoNacimiento820">Sexo biológico al nacer</a>
                </td>
                <td>
-<p>Extensión de Sexdo biológico al nacer para Chile</p>
+<p>Extensión de Sexo Biológico al nacer.</p>
 </td>
             </tr>
             <tr>
@@ -334,6 +355,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-ClaseAtencionVS.html" title="ValueSet/ClaseAtencionVS">Códigos para tipos de atención</a>
+               </td>
+               <td>
+<p>Códigos para Tipos de Atención.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-TipoAtencionVS.html" title="ValueSet/TipoAtencionVS">Códigos para tipos de atención</a>
                </td>
                <td>
@@ -371,11 +400,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-ClaseAtencionCS.html"
+                     title="CodeSystem/ClaseAtencionCS">Códigos para clase  de Atención</a>
+               </td>
+               <td>
+<p>Códigos definidos para la clase de atención especificada</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-EspecialidadMedicaCS.html"
                      title="CodeSystem/EspecialidadMedicaCS">Códigos para Especialidades Médicas</a>
                </td>
                <td>
-<p>Codigos definidos para las especialidades médicas de atención</p>
+<p>Códigos definidos para las especialidades médicas de atención</p>
 </td>
             </tr>
             <tr>
@@ -393,7 +431,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="CodeSystem/SexoBiologicoCS">Códigos para Sexo de Nacimiento de Paciente</a>
                </td>
                <td>
-<p>Codigos definidos para el sexo de nacimiento de un paciente en Chile</p>
+<p>Códigos definidos para el sexo de nacimiento de un paciente en Chile</p>
 </td>
             </tr>
             <tr>
@@ -401,7 +439,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   <a href="CodeSystem-TipoAtencionCS.html" title="CodeSystem/TipoAtencionCS">Códigos para Tipo de Atención</a>
                </td>
                <td>
-<p>Codigos definidos para los tipos de atención</p>
+<p>Códigos definidos para los tipos de atención</p>
 </td>
             </tr>
             <tr>
@@ -434,7 +472,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-Pac01.html" title="Patient/Pac01">Ejemplo de Recurso Paciente Hackathon</a>
+                  <a href="Patient-Pac007.html" title="Patient/Pac007">Ejemplo de Recurso Paciente Hackathon</a>
                </td>
                <td>
 <p>Paciente ficticio para ejemplo en Hackathon</p>
@@ -446,6 +484,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Prestador ficticio para ejemplo en Hackathon</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-HospitalizacionHack.html"
+                     title="Encounter/HospitalizacionHack">Ejemplo de un episodio de hospitalización</a>
+               </td>
+               <td>
+<p>Una episodio de hospitalización</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-EjemploBundle.html" title="Bundle/EjemploBundle">EjemploBundle</a>
+               </td>
+               <td>
+<p>Un ejemplo de un bundle generado por el servidor de tipo respuesta a busqueda.</p>
 </td>
             </tr>
          </tbody>
@@ -475,7 +530,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/">HL7 Chile</a>.  Package fhir.hackaton#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jul 4, 2023 17:18-0400">2023-07-04</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://hl7chile.cl/">HL7 Chile</a>.  Package fhir.hackaton#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Jul 19, 2023 16:02-0400">2023-07-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="EjemploBundle"/>
+  <meta>
+    <profile value="https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton"/>
+  </meta>
+  <type value="searchset"/>
+  <total value="1"/>
+  <link>
+    <relation value="self"/>
+    <url value="https://hapi.fhir.org/baseR5/Patient?family=Smith"/>
+  </link>
+  <entry>
+    <fullUrl value="https://hapi.fhir.org/baseR5/Patient/2853"/>
+    <resource>
+      <Patient>
+        <id value="2853"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2022-05-14T05:52:07.726+00:00"/>
+          <source value="#Wdp7zpMHsIT0WMNy"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="2853"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;2853&quot; Version &quot;1&quot; Updated &quot;2022-05-14 05:52:07+0000&quot; </p><p style="margin-bottom: 0px">Information Source: #Wdp7zpMHsIT0WMNy!</p></div><p><b>identifier</b>: id: 12345</p><p><b>name</b>: John Smith </p></div>
+        </text>
+        <identifier>
+          <system value="urn:system"/>
+          <value value="12345"/>
+        </identifier>
+        <name>
+          <family value="Smith"/>
+          <given value="John"/>
+        </name>
+      </Patient>
+    </resource>
+    <search>
+      <mode value="match"/>
+    </search>
+  </entry>
+</Bundle>

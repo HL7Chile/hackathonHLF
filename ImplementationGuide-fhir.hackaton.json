@@ -10,7 +10,7 @@
   "name" : "HackatonHLF",
   "title" : "Guía de Implementación Hackaton HLF 2023",
   "status" : "draft",
-  "date" : "2023-07-04T17:18:33-04:00",
+  "date" : "2023-07-19T16:02:56-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -330,10 +330,34 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/BundleHackaton"
+      },
+      "name" : "BundleHackaton",
+      "description" : "Perfil para un empaquetador de recursos FHIR",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/CitasHackaton"
       },
       "name" : "CitasHackaton",
       "description" : "Perfil para una cita de agenda de paciente",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ClaseAtencionCS"
+      },
+      "name" : "Códigos para clase  de Atención",
+      "description" : "Códigos definidos para la clase de atención especificada",
       "isExample" : false
     },
     {
@@ -357,7 +381,7 @@
         "reference" : "CodeSystem/EspecialidadMedicaCS"
       },
       "name" : "Códigos para Especialidades Médicas",
-      "description" : "Codigos definidos para las especialidades médicas de atención",
+      "description" : "Códigos definidos para las especialidades médicas de atención",
       "isExample" : false
     },
     {
@@ -393,7 +417,7 @@
         "reference" : "CodeSystem/SexoBiologicoCS"
       },
       "name" : "Códigos para Sexo de Nacimiento de Paciente",
-      "description" : "Codigos definidos para el sexo de nacimiento de un paciente en Chile",
+      "description" : "Códigos definidos para el sexo de nacimiento de un paciente en Chile",
       "isExample" : false
     },
     {
@@ -405,7 +429,7 @@
         "reference" : "CodeSystem/TipoAtencionCS"
       },
       "name" : "Códigos para Tipo de Atención",
-      "description" : "Codigos definidos para los tipos de atención",
+      "description" : "Códigos definidos para los tipos de atención",
       "isExample" : false
     },
     {
@@ -418,6 +442,18 @@
       },
       "name" : "Códigos para tipo de vía",
       "description" : "Codigos definidos para tipos de via en direcciones",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ClaseAtencionVS"
+      },
+      "name" : "Códigos para tipos de atención",
+      "description" : "Códigos para Tipos de Atención.",
       "isExample" : false
     },
     {
@@ -463,7 +499,7 @@
         "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "Patient/Pac01"
+        "reference" : "Patient/Pac007"
       },
       "name" : "Ejemplo de Recurso Paciente Hackathon",
       "description" : "Paciente ficticio para ejemplo en Hackathon",
@@ -482,6 +518,32 @@
       "description" : "Prestador ficticio para ejemplo en Hackathon",
       "profile" : ["https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PrestadorHackaton",
       "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PrestadorHackaton"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/HospitalizacionHack"
+      },
+      "name" : "Ejemplo de un episodio de hospitalización",
+      "description" : "Una episodio de hospitalización",
+      "profile" : ["https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp",
+      "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/EjemploBundle"
+      },
+      "name" : "EjemploBundle",
+      "description" : "Un ejemplo de un bundle generado por el servidor de tipo respuesta a busqueda.",
+      "profile" : ["https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton",
+      "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton"]
     },
     {
       "extension" : [{
@@ -516,7 +578,7 @@
         "reference" : "StructureDefinition/NombreSocial"
       },
       "name" : "Nombre Social de Paciente",
-      "description" : "Esta extensión permite agregar un nombre social al paciente",
+      "description" : "Esta extensión permite agregar un nombre social al paciente. Se define como nombre social aquel con el cual el/la paciente se reconoce a si mismo/a",
       "isExample" : false
     },
     {
@@ -528,7 +590,7 @@
         "reference" : "StructureDefinition/PacienteHackaton"
       },
       "name" : "PacienteHackaton",
-      "description" : "Paciente a ser usado en la Hackatón HLF",
+      "description" : "Paciente a ser usado en la Hackatón HLF. Contiene datos mínimos especificados para cumplir normativas nacionales",
       "isExample" : false
     },
     {
@@ -540,7 +602,19 @@
         "reference" : "StructureDefinition/PrestadorHackaton"
       },
       "name" : "PrestadorHackaton",
-      "description" : "Prestador a ser usado en la Hackatón HLF",
+      "description" : "Prestador a ser usado en la Hackatón HLF. Contiene datos mínimos para mantener coherencia con la normativa nacional",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/registro-hosp"
+      },
+      "name" : "Registro de Episodios de Hospitalización",
+      "description" : "Perfil del recurso Encounter para el registro de episodios hospitalizaciones de paciente",
       "isExample" : false
     },
     {
@@ -552,7 +626,7 @@
         "reference" : "StructureDefinition/SexoNacimiento820"
       },
       "name" : "Sexo biológico al nacer",
-      "description" : "Extensión de Sexdo biológico al nacer para Chile",
+      "description" : "Extensión de Sexo Biológico al nacer.",
       "isExample" : false
     },
     {
@@ -576,6 +650,12 @@
         "sourceUrl" : "index.html",
         "name" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "casosUso.html",
+        "name" : "casosUso.html",
+        "title" : "Casos Uso",
         "generation" : "markdown"
       },
       {

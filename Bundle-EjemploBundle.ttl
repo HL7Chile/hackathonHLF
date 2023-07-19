@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hlf.cl/fhir/ig/hackaton/Bundle/EjemploBundle> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjemploBundle"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton"^^xsd:anyURI ;
+       fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton>
+     ] )
+  ] ; # 
+  fhir:type [ fhir:v "searchset"] ; # 
+  fhir:total [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 
+  fhir:link ( [
+     fhir:relation [ fhir:v "self" ] ;
+     fhir:url [ fhir:v "https://hapi.fhir.org/baseR5/Patient?family=Smith"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "https://hapi.fhir.org/baseR5/Patient/2853"^^xsd:anyURI ] ;
+     fhir:resource ( <https://hapi.fhir.org/baseR5/Patient/2853> ) ;
+     fhir:search [
+       fhir:mode [ fhir:v "match" ]
+     ]
+  ] ) . # 
+
+<https://hapi.fhir.org/baseR5/Patient/2853> a fhir:Patient ;
+  fhir:id [ fhir:v "2853"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-05-14T05:52:07.726+00:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "#Wdp7zpMHsIT0WMNy"^^xsd:anyURI ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"2853\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;2853&quot; Version &quot;1&quot; Updated &quot;2022-05-14 05:52:07+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #Wdp7zpMHsIT0WMNy!</p></div><p><b>identifier</b>: id: 12345</p><p><b>name</b>: John Smith </p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:system"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12345" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Smith" ] ;
+     fhir:given ( [ fhir:v "John" ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

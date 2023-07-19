@@ -1,11 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ebdeaa25-d8c7-44cc-afec-3fc9a5ba24a7"/>
+  <id value="ad2b2c29-baa2-4b49-877a-37164984dab7"/>
   <meta>
-    <lastUpdated value="2023-07-04T17:18:33.115-04:00"/>
+    <lastUpdated value="2023-07-19T16:02:56.298-04:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-ClaseAtencionCS.html">Códigos para clase  de Atención v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-1"> </a>  
+                  <a href="CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-1">1</a>
+                </td>
+                <td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td>
+                <td>Hospitalizada</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-2"> </a>  
+                  <a href="CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-2">2</a>
+                </td>
+                <td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td>
+                <td>Ambulatoria</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-3"> </a>  
+                  <a href="CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-3">3</a>
+                </td>
+                <td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td>
+                <td>Observación</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-4"> </a>  
+                  <a href="CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-4">4</a>
+                </td>
+                <td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td>
+                <td>Urgencia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-5"> </a>  
+                  <a href="CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-5">5</a>
+                </td>
+                <td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td>
+                <td>Virtual</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS"/>
+        <version value="0.1.0"/>
+        <name value="ClaseAtencionVS"/>
+        <title value="Códigos para tipos de atención"/>
+        <status value="active"/>
+        <experimental value="true"/>
+        <date value="2022-01-18T00:00:00-03:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CL"/>
+            <display value="Chile"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:dcac593d-b5ed-47b0-a52e-1692fbf4d5f8"/>
+          <timestamp value="2023-07-19T16:03:52-04:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
+            <code value="1"/>
+            <display value="Hospitalizada"/>
+          </contains>
+          <contains>
+            <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
+            <code value="2"/>
+            <display value="Ambulatoria"/>
+          </contains>
+          <contains>
+            <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
+            <code value="3"/>
+            <display value="Observación"/>
+          </contains>
+          <contains>
+            <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
+            <code value="4"/>
+            <display value="Urgencia"/>
+          </contains>
+          <contains>
+            <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
+            <code value="5"/>
+            <display value="Virtual"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS"/>
     <resource>
@@ -591,8 +712,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0ab43223-be03-49db-9d3c-74f0f9aa2f5b"/>
-          <timestamp value="2023-07-04T17:19:28-04:00"/>
+          <identifier value="urn:uuid:e775b1f2-512e-48b9-b96b-2a4d5f50ac46"/>
+          <timestamp value="2023-07-19T16:03:53-04:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1046,8 +1167,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dcb9e204-6a3f-444f-8a73-20c1caa05abd"/>
-          <timestamp value="2023-07-04T17:19:28-04:00"/>
+          <identifier value="urn:uuid:405eb3a7-f36f-4f66-a447-d80e42731803"/>
+          <timestamp value="2023-07-19T16:03:53-04:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1138,8 +1259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d2b51938-754c-41d0-97f3-7ecc51eb6df9"/>
-          <timestamp value="2023-07-04T17:19:28-04:00"/>
+          <identifier value="urn:uuid:7d27543e-0188-4d83-8a19-c28cc470f7ba"/>
+          <timestamp value="2023-07-19T16:03:53-04:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1305,8 +1426,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ed037830-9651-4ec3-bdcf-04de9a615631"/>
-          <timestamp value="2023-07-04T17:19:29-04:00"/>
+          <identifier value="urn:uuid:5032015c-ee73-49bc-a83a-e7fd646f54ba"/>
+          <timestamp value="2023-07-19T16:03:53-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1521,8 +1642,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:725c8e04-d4cb-4131-a595-cf272f14bb1f"/>
-          <timestamp value="2023-07-04T17:19:29-04:00"/>
+          <identifier value="urn:uuid:7e7fca4c-0ad7-492a-977a-c1a5b0f892c7"/>
+          <timestamp value="2023-07-19T16:03:53-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>

@@ -1,0 +1,26 @@
+{
+  "resourceType" : "Encounter",
+  "id" : "HospitalizacionHack",
+  "meta" : {
+    "profile" : ["https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b><a name=\"HospitalizacionHack\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter &quot;HospitalizacionHack&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-registro-hosp.html\">Registro de Episodios de Hospitalización</a></p></div><p><b>status</b>: completed</p><p><b>class</b>: Hospitalizada <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-ClaseAtencionCS.html\">Códigos para clase  de Atención</a>#1)</span></p><p><b>subject</b>: <a href=\"Patient-Pac007.html\">Patient/Pac007</a> &quot; SKYDANCER&quot;</p><p><b>actualPeriod</b>: 2019-05-07 16:00:00-0300 --&gt; 2019-05-17 16:00:00-0300</p></div>"
+  },
+  "status" : "completed",
+  "class" : [{
+    "coding" : [{
+      "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+      "code" : "1",
+      "display" : "Hospitalizada"
+    }]
+  }],
+  "subject" : {
+    "reference" : "Patient/Pac007"
+  },
+  "actualPeriod" : {
+    "start" : "2019-05-07T16:00:00-03:00",
+    "end" : "2019-05-17T16:00:00-03:00"
+  }
+}

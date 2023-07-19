@@ -20,7 +20,7 @@
       "value" : "https://hl7chile.cl/"
     }]
   }],
-  "description" : "Codigos definidos para los tipos de atención",
+  "description" : "Códigos definidos para los tipos de atención",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

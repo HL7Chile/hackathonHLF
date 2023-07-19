@@ -27,7 +27,7 @@
        fhir:value [ fhir:v "https://hl7chile.cl/" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Codigos definidos para los tipos de atención"] ; # 
+  fhir:description [ fhir:v "Códigos definidos para los tipos de atención"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

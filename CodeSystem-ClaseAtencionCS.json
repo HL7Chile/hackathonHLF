@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ClaseAtencionCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ClaseAtencionCS-1\"> </a></td><td>Hospitalizada</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ClaseAtencionCS-2\"> </a></td><td>Ambulatoria</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ClaseAtencionCS-3\"> </a></td><td>Observación</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ClaseAtencionCS-4\"> </a></td><td>Urgencia</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"ClaseAtencionCS-5\"> </a></td><td>Virtual</td></tr></table></div>"
+  },
+  "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+  "version" : "0.1.0",
+  "name" : "ClaseAtencionCS",
+  "title" : "Códigos para clase  de Atención",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-01-18T00:00:00-03:00",
+  "publisher" : "HL7 Chile",
+  "contact" : [{
+    "name" : "HL7 Chile",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7chile.cl/"
+    }]
+  }],
+  "description" : "Códigos definidos para la clase de atención especificada",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Hospitalizada"
+  },
+  {
+    "code" : "2",
+    "display" : "Ambulatoria"
+  },
+  {
+    "code" : "3",
+    "display" : "Observación"
+  },
+  {
+    "code" : "4",
+    "display" : "Urgencia"
+  },
+  {
+    "code" : "5",
+    "display" : "Virtual"
+  }]
+}

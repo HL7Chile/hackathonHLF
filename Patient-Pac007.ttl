@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hlf.cl/fhir/ig/hackaton/Patient/Pac007> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Pac007"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PacienteHackaton"^^xsd:anyURI ;
+       fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PacienteHackaton>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Luke Anakin Skydancer </b> (no stated gender), DoB Unknown ( id: 66666666-6 (use: OFFICIAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:darth@empire.bad\">darth@empire.bad</a></li><li>Calle Sith, 4 Valparaíso Valparaíso </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <span>: Placilla</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local \"><a href=\"StructureDefinition-IdentidadGenero.html\">Identidad de Género:</a></td><td colspan=\"3\"><ul><li>7</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión de Sexo Biológico al nacer.\"><a href=\"StructureDefinition-SexoNacimiento820.html\">Sexo biológico al nacer:</a></td><td colspan=\"3\"><ul><li>1</li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SexoNacimiento820"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1" ]
+  ] [
+     fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/IdentidadGenero"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "7" ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:value [ fhir:v "66666666-6" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SegundoApellido"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Organa" ]
+     ] [
+       fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/NombreSocial"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Darth" ]
+     ] ) ;
+     fhir:family [ fhir:v "Skydancer" ] ;
+     fhir:given ( [ fhir:v "Luke" ] [ fhir:v "Anakin" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "darth@empire.bad" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/TipoVia"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "1" ]
+     ] ) ;
+     fhir:line ( [ fhir:v "Calle Sith, 4" ] ) ;
+     fhir:city [ fhir:v "Valparaíso" ] ;
+     fhir:district [ fhir:v "Valparaíso" ] ;
+     fhir:state [ fhir:v "Valparaíso" ]
+  ] ) ; # 
+  fhir:generalPractitioner ( [
+     fhir:display [ fhir:v "Placilla" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

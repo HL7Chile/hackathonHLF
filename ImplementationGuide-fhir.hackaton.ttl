@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HackatonHLF"] ; # 
   fhir:title [ fhir:v "Guía de Implementación Hackaton HLF 2023"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-04T17:18:33-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-19T16:02:56-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;
@@ -294,11 +294,35 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton> ;
+         fhir:reference [ fhir:v "StructureDefinition/BundleHackaton" ]
+       ] ;
+       fhir:name [ fhir:v "BundleHackaton" ] ;
+       fhir:description [ fhir:v "Perfil para un empaquetador de recursos FHIR" ] ;
+       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/CitasHackaton> ;
          fhir:reference [ fhir:v "StructureDefinition/CitasHackaton" ]
        ] ;
        fhir:name [ fhir:v "CitasHackaton" ] ;
        fhir:description [ fhir:v "Perfil para una cita de agenda de paciente" ] ;
+       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS> ;
+         fhir:reference [ fhir:v "CodeSystem/ClaseAtencionCS" ]
+       ] ;
+       fhir:name [ fhir:v "Códigos para clase  de Atención" ] ;
+       fhir:description [ fhir:v "Códigos definidos para la clase de atención especificada" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -322,7 +346,7 @@
          fhir:reference [ fhir:v "CodeSystem/EspecialidadMedicaCS" ]
        ] ;
        fhir:name [ fhir:v "Códigos para Especialidades Médicas" ] ;
-       fhir:description [ fhir:v "Codigos definidos para las especialidades médicas de atención" ] ;
+       fhir:description [ fhir:v "Códigos definidos para las especialidades médicas de atención" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -358,7 +382,7 @@
          fhir:reference [ fhir:v "CodeSystem/SexoBiologicoCS" ]
        ] ;
        fhir:name [ fhir:v "Códigos para Sexo de Nacimiento de Paciente" ] ;
-       fhir:description [ fhir:v "Codigos definidos para el sexo de nacimiento de un paciente en Chile" ] ;
+       fhir:description [ fhir:v "Códigos definidos para el sexo de nacimiento de un paciente en Chile" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -370,7 +394,7 @@
          fhir:reference [ fhir:v "CodeSystem/TipoAtencionCS" ]
        ] ;
        fhir:name [ fhir:v "Códigos para Tipo de Atención" ] ;
-       fhir:description [ fhir:v "Codigos definidos para los tipos de atención" ] ;
+       fhir:description [ fhir:v "Códigos definidos para los tipos de atención" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -383,6 +407,18 @@
        ] ;
        fhir:name [ fhir:v "Códigos para tipo de vía" ] ;
        fhir:description [ fhir:v "Codigos definidos para tipos de via en direcciones" ] ;
+       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS> ;
+         fhir:reference [ fhir:v "ValueSet/ClaseAtencionVS" ]
+       ] ;
+       fhir:name [ fhir:v "Códigos para tipos de atención" ] ;
+       fhir:description [ fhir:v "Códigos para Tipos de Atención." ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -432,8 +468,8 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://hlf.cl/fhir/ig/hackaton/Patient/Pac01> ;
-         fhir:reference [ fhir:v "Patient/Pac01" ]
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/Patient/Pac007> ;
+         fhir:reference [ fhir:v "Patient/Pac007" ]
        ] ;
        fhir:name [ fhir:v "Ejemplo de Recurso Paciente Hackathon" ] ;
        fhir:description [ fhir:v "Paciente ficticio para ejemplo en Hackathon" ] ;
@@ -461,6 +497,42 @@
        ] [
          fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PrestadorHackaton"^^xsd:anyURI ;
          fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/PrestadorHackaton>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Encounter" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/Encounter/HospitalizacionHack> ;
+         fhir:reference [ fhir:v "Encounter/HospitalizacionHack" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo de un episodio de hospitalización" ] ;
+       fhir:description [ fhir:v "Una episodio de hospitalización" ] ;
+       fhir:profile ( [
+         fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp"^^xsd:anyURI ;
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp>
+       ] [
+         fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp"^^xsd:anyURI ;
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/Bundle/EjemploBundle> ;
+         fhir:reference [ fhir:v "Bundle/EjemploBundle" ]
+       ] ;
+       fhir:name [ fhir:v "EjemploBundle" ] ;
+       fhir:description [ fhir:v "Un ejemplo de un bundle generado por el servidor de tipo respuesta a busqueda." ] ;
+       fhir:profile ( [
+         fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton"^^xsd:anyURI ;
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton>
+       ] [
+         fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton"^^xsd:anyURI ;
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/BundleHackaton>
        ] )
      ] [
        fhir:extension ( [
@@ -496,7 +568,7 @@
          fhir:reference [ fhir:v "StructureDefinition/NombreSocial" ]
        ] ;
        fhir:name [ fhir:v "Nombre Social de Paciente" ] ;
-       fhir:description [ fhir:v "Esta extensión permite agregar un nombre social al paciente" ] ;
+       fhir:description [ fhir:v "Esta extensión permite agregar un nombre social al paciente. Se define como nombre social aquel con el cual el/la paciente se reconoce a si mismo/a" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -508,7 +580,7 @@
          fhir:reference [ fhir:v "StructureDefinition/PacienteHackaton" ]
        ] ;
        fhir:name [ fhir:v "PacienteHackaton" ] ;
-       fhir:description [ fhir:v "Paciente a ser usado en la Hackatón HLF" ] ;
+       fhir:description [ fhir:v "Paciente a ser usado en la Hackatón HLF. Contiene datos mínimos especificados para cumplir normativas nacionales" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -520,7 +592,19 @@
          fhir:reference [ fhir:v "StructureDefinition/PrestadorHackaton" ]
        ] ;
        fhir:name [ fhir:v "PrestadorHackaton" ] ;
-       fhir:description [ fhir:v "Prestador a ser usado en la Hackatón HLF" ] ;
+       fhir:description [ fhir:v "Prestador a ser usado en la Hackatón HLF. Contiene datos mínimos para mantener coherencia con la normativa nacional" ] ;
+       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hlf.cl/fhir/ig/hackaton/StructureDefinition/registro-hosp> ;
+         fhir:reference [ fhir:v "StructureDefinition/registro-hosp" ]
+       ] ;
+       fhir:name [ fhir:v "Registro de Episodios de Hospitalización" ] ;
+       fhir:description [ fhir:v "Perfil del recurso Encounter para el registro de episodios hospitalizaciones de paciente" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -532,7 +616,7 @@
          fhir:reference [ fhir:v "StructureDefinition/SexoNacimiento820" ]
        ] ;
        fhir:name [ fhir:v "Sexo biológico al nacer" ] ;
-       fhir:description [ fhir:v "Extensión de Sexdo biológico al nacer para Chile" ] ;
+       fhir:description [ fhir:v "Extensión de Sexo Biológico al nacer." ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -556,6 +640,11 @@
          fhir:source [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [ fhir:v "casosUso.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "casosUso.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Casos Uso" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:source [ fhir:v "descargas.html"^^xsd:anyURI ] ;

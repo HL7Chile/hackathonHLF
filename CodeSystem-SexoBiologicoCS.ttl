@@ -27,7 +27,7 @@
        fhir:value [ fhir:v "https://hl7chile.cl/" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Codigos definidos para el sexo de nacimiento de un paciente en Chile"] ; # 
+  fhir:description [ fhir:v "Códigos definidos para el sexo de nacimiento de un paciente en Chile"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

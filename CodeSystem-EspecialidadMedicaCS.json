@@ -20,7 +20,7 @@
       "value" : "https://hl7chile.cl/"
     }]
   }],
-  "description" : "Codigos definidos para las especialidades médicas de atención",
+  "description" : "Códigos definidos para las especialidades médicas de atención",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

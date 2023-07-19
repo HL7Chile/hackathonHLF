@@ -1,11 +1,73 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ebdeaa25-d8c7-44cc-afec-3fc9a5ba24a7",
+  "id" : "ad2b2c29-baa2-4b49-877a-37164984dab7",
   "meta" : {
-    "lastUpdated" : "2023-07-04T17:18:33.115-04:00"
+    "lastUpdated" : "2023-07-19T16:02:56.298-04:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-ClaseAtencionCS.html\">Códigos para clase  de Atención v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-1\">1</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td><td>Hospitalizada</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-2\">2</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td><td>Ambulatoria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-3\">3</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td><td>Observación</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-4\">4</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td><td>Urgencia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---hlf.cl-fhir-ig-hackaton-CodeSystem-ClaseAtencionCS-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ClaseAtencionCS.html#ClaseAtencionCS-5\">5</a></td><td>https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS</td><td>Virtual</td></tr></table></div>"
+      },
+      "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS",
+      "version" : "0.1.0",
+      "name" : "ClaseAtencionVS",
+      "title" : "Códigos para tipos de atención",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2022-01-18T00:00:00-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CL",
+          "display" : "Chile"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:dcac593d-b5ed-47b0-a52e-1692fbf4d5f8",
+        "timestamp" : "2023-07-19T16:03:52-04:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+          "code" : "1",
+          "display" : "Hospitalizada"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+          "code" : "2",
+          "display" : "Ambulatoria"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+          "code" : "3",
+          "display" : "Observación"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+          "code" : "4",
+          "display" : "Urgencia"
+        },
+        {
+          "system" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS",
+          "code" : "5",
+          "display" : "Virtual"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -28,8 +90,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0ab43223-be03-49db-9d3c-74f0f9aa2f5b",
-        "timestamp" : "2023-07-04T17:19:28-04:00",
+        "identifier" : "urn:uuid:e775b1f2-512e-48b9-b96b-2a4d5f50ac46",
+        "timestamp" : "2023-07-19T16:03:53-04:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -405,8 +467,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dcb9e204-6a3f-444f-8a73-20c1caa05abd",
-        "timestamp" : "2023-07-04T17:19:28-04:00",
+        "identifier" : "urn:uuid:405eb3a7-f36f-4f66-a447-d80e42731803",
+        "timestamp" : "2023-07-19T16:03:53-04:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -462,8 +524,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d2b51938-754c-41d0-97f3-7ecc51eb6df9",
-        "timestamp" : "2023-07-04T17:19:28-04:00",
+        "identifier" : "urn:uuid:7d27543e-0188-4d83-8a19-c28cc470f7ba",
+        "timestamp" : "2023-07-19T16:03:53-04:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -509,8 +571,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ed037830-9651-4ec3-bdcf-04de9a615631",
-        "timestamp" : "2023-07-04T17:19:29-04:00",
+        "identifier" : "urn:uuid:5032015c-ee73-49bc-a83a-e7fd646f54ba",
+        "timestamp" : "2023-07-19T16:03:53-04:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -581,8 +643,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:725c8e04-d4cb-4131-a595-cf272f14bb1f",
-        "timestamp" : "2023-07-04T17:19:29-04:00",
+        "identifier" : "urn:uuid:7e7fca4c-0ad7-492a-977a-c1a5b0f892c7",
+        "timestamp" : "2023-07-19T16:03:53-04:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",

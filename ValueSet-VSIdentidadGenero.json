@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSIdentidadGenero.html\"><code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero</code></a></li></ul></div>"
   },
   "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/VSIdentidadGenero",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "VSIdentidadGenero",
   "title" : "Identidad de Género",
   "status" : "active",

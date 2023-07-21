@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HackatonHLF</h2><p>The official URL for this implementation guide is: </p><pre>https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton</pre><div><p>Guía de Implementación para Hackaton HLF on FHIR. Esta guía determina los artefactos y casos de uso con sus operaciones para los equipos que van a participar de la Hackaton</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "HackatonHLF"] ; # 
-  fhir:title [ fhir:v "Guía de Implementación Hackaton HLF 2023"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-07-19T16:02:56-04:00"^^xsd:dateTime] ; # 
+  fhir:title [ fhir:v "Guía de Implementación Hackathon HLF 2023"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-21T15:33:08-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;
@@ -71,7 +71,7 @@
          fhir:value [ fhir:v "releaselabel" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ci-build" ]
+         fhir:value [ fhir:v "release" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -651,6 +651,21 @@
          fhir:name [ fhir:v "descargas.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Descargas" ] ;
          fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [ fhir:v "StructureDefinition-CitasHackaton-Notes.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "StructureDefinition-CitasHackaton-Notes.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Structure Definition Citas Hackaton Notes" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [ fhir:v "StructureDefinition-PacienteHackaton-Notes.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "StructureDefinition-PacienteHackaton-Notes.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Structure Definition Paciente Hackaton Notes" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:source [ fhir:v "StructureDefinition-registro-hosp-Notes.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "StructureDefinition-registro-hosp-Notes.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Structure Definition Registro Hosp Notes" ] ;
+         fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
      fhir:parameter ( [
@@ -754,7 +769,7 @@
          fhir:system [ fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "releaselabel" ]
        ] ;
-       fhir:value [ fhir:v "ci-build" ]
+       fhir:value [ fhir:v "release" ]
      ] [
        fhir:code [
          fhir:system [ fhir:v "http://hl7.org/fhir/tools/CodeSystem/ig-parameters"^^xsd:anyURI ] ;

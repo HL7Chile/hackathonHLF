@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HackatonHLF</h2><p>The official URL for this implementation guide is: </p><pre>https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton</pre><div><p>Guía de Implementación para Hackaton HLF on FHIR. Esta guía determina los artefactos y casos de uso con sus operaciones para los equipos que van a participar de la Hackaton</p>\n</div></div>"
   },
   "url" : "https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton",
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "name" : "HackatonHLF",
-  "title" : "Guía de Implementación Hackaton HLF 2023",
-  "status" : "draft",
-  "date" : "2023-07-19T16:02:56-04:00",
+  "title" : "Guía de Implementación Hackathon HLF 2023",
+  "status" : "active",
+  "date" : "2023-07-21T15:33:08-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -62,7 +62,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -663,6 +663,24 @@
         "name" : "descargas.html",
         "title" : "Descargas",
         "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "StructureDefinition-CitasHackaton-Notes.html",
+        "name" : "StructureDefinition-CitasHackaton-Notes.html",
+        "title" : "Structure Definition Citas Hackaton Notes",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "StructureDefinition-PacienteHackaton-Notes.html",
+        "name" : "StructureDefinition-PacienteHackaton-Notes.html",
+        "title" : "Structure Definition Paciente Hackaton Notes",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "StructureDefinition-registro-hosp-Notes.html",
+        "name" : "StructureDefinition-registro-hosp-Notes.html",
+        "title" : "Structure Definition Registro Hosp Notes",
+        "generation" : "markdown"
       }]
     },
     "parameter" : [{
@@ -782,7 +800,7 @@
         "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
         "code" : "releaselabel"
       },
-      "value" : "ci-build"
+      "value" : "release"
     },
     {
       "code" : {

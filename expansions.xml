@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ad2b2c29-baa2-4b49-877a-37164984dab7"/>
+  <id value="e66ac409-692d-4d81-a80f-401a8fddcf61"/>
   <meta>
-    <lastUpdated value="2023-07-19T16:02:56.298-04:00"/>
+    <lastUpdated value="2023-07-21T15:33:08.474-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,7 +15,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-ClaseAtencionCS.html">Códigos para clase  de Atención v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-ClaseAtencionCS.html">Códigos para clase  de Atención v1.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -73,7 +73,7 @@
           </div>
         </text>
         <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/ClaseAtencionVS"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="ClaseAtencionVS"/>
         <title value="Códigos para tipos de atención"/>
         <status value="active"/>
@@ -87,8 +87,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dcac593d-b5ed-47b0-a52e-1692fbf4d5f8"/>
-          <timestamp value="2023-07-19T16:03:52-04:00"/>
+          <identifier value="urn:uuid:8c5f0023-5640-4ea8-96f1-f9a86aa6b24c"/>
+          <timestamp value="2023-07-21T15:34:02-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -96,7 +96,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS|0.1.0"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/ClaseAtencionCS"/>
@@ -136,7 +136,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 68 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-EspecialidadMedicaCS.html">Códigos para Especialidades Médicas v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-EspecialidadMedicaCS.html">Códigos para Especialidades Médicas v1.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -698,7 +698,7 @@
           </div>
         </text>
         <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/EspecialidadMedicaVS"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="EspecialidadMedicaVS"/>
         <title value="Códigos para especialidades médicas"/>
         <status value="active"/>
@@ -712,8 +712,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e775b1f2-512e-48b9-b96b-2a4d5f50ac46"/>
-          <timestamp value="2023-07-19T16:03:53-04:00"/>
+          <identifier value="urn:uuid:b8f528de-5b47-4e71-a6d8-044bd9d533a7"/>
+          <timestamp value="2023-07-21T15:34:03-04:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -721,7 +721,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS|0.1.0"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/EspecialidadMedicaCS"/>
@@ -1076,7 +1076,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-SexoBiologicoCS.html">Códigos para Sexo de Nacimiento de Paciente v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-SexoBiologicoCS.html">Códigos para Sexo de Nacimiento de Paciente v1.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -1153,7 +1153,7 @@
           </div>
         </text>
         <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/SexoBiologicoVS"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="SexoBiologicoVS"/>
         <title value="Códigos para sexo biológico en Chile"/>
         <status value="active"/>
@@ -1167,8 +1167,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:405eb3a7-f36f-4f66-a447-d80e42731803"/>
-          <timestamp value="2023-07-19T16:03:53-04:00"/>
+          <identifier value="urn:uuid:40245cd3-34af-4346-b67f-4d651fc1aa40"/>
+          <timestamp value="2023-07-21T15:34:03-04:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1176,7 +1176,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS|0.1.0"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/SexoBiologicoCS"/>
@@ -1211,7 +1211,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-TipoAtencionCS.html">Códigos para Tipo de Atención v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-TipoAtencionCS.html">Códigos para Tipo de Atención v1.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -1245,7 +1245,7 @@
           </div>
         </text>
         <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/TipoAtencionVS"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="TipoAtencionVS"/>
         <title value="Códigos para tipos de atención"/>
         <status value="active"/>
@@ -1259,8 +1259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7d27543e-0188-4d83-8a19-c28cc470f7ba"/>
-          <timestamp value="2023-07-19T16:03:53-04:00"/>
+          <identifier value="urn:uuid:9b622986-59c2-4db2-9b60-ca0f4d293e7a"/>
+          <timestamp value="2023-07-21T15:34:03-04:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1268,7 +1268,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS|0.1.0"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS"/>
@@ -1293,7 +1293,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSIdentidadGenero.html">Códigos para Identidad de Género v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSIdentidadGenero.html">Códigos para Identidad de Género v1.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -1412,7 +1412,7 @@
           </div>
         </text>
         <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/VSIdentidadGenero"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="VSIdentidadGenero"/>
         <title value="Identidad de Género"/>
         <status value="active"/>
@@ -1426,8 +1426,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5032015c-ee73-49bc-a83a-e7fd646f54ba"/>
-          <timestamp value="2023-07-19T16:03:53-04:00"/>
+          <identifier value="urn:uuid:c150d48f-bbef-4f94-abc5-c3cae994186a"/>
+          <timestamp value="2023-07-21T15:34:03-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1435,7 +1435,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero|0.1.0"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSIdentidadGenero"/>
@@ -1485,7 +1485,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 10 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSVia.html">Códigos para tipo de vía v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSVia.html">Códigos para tipo de vía v1.0.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -1628,7 +1628,7 @@
           </div>
         </text>
         <url value="https://hlf.cl/fhir/ig/hackaton/ValueSet/VSVia"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="VSVia"/>
         <title value="Códigos para Vías en direccón"/>
         <status value="active"/>
@@ -1642,8 +1642,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7e7fca4c-0ad7-492a-977a-c1a5b0f892c7"/>
-          <timestamp value="2023-07-19T16:03:53-04:00"/>
+          <identifier value="urn:uuid:0f1bd29c-0bb2-4b57-b9dd-dd6fd651610c"/>
+          <timestamp value="2023-07-21T15:34:03-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1651,7 +1651,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia|0.1.0"/>
+            <valueUri value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia|1.0.0"/>
           </parameter>
           <contains>
             <system value="https://hlf.cl/fhir/ig/hackaton/CodeSystem/CSVia"/>

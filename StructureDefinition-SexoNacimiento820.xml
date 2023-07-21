@@ -13,11 +13,11 @@
     <valueCode value="can-bind"/>
   </extension>
   <url value="https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SexoNacimiento820"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="SexoNacimiento820"/>
   <title value="Sexo biológico al nacer"/>
-  <status value="draft"/>
-  <date value="2023-07-19T16:02:56-04:00"/>
+  <status value="active"/>
+  <date value="2023-07-21T15:33:08-04:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>

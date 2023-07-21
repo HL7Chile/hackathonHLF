@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="HackatonHLF"/>
-  <title value="Guía de Implementación Hackaton HLF 2023"/>
-  <status value="draft"/>
-  <date value="2023-07-19T16:02:56-04:00"/>
+  <title value="Guía de Implementación Hackathon HLF 2023"/>
+  <status value="active"/>
+  <date value="2023-07-21T15:33:08-04:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -54,7 +54,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="release"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -561,6 +561,24 @@
         <title value="Descargas"/>
         <generation value="markdown"/>
       </page>
+      <page>
+        <sourceUrl value="StructureDefinition-CitasHackaton-Notes.html"/>
+        <name value="StructureDefinition-CitasHackaton-Notes.html"/>
+        <title value="Structure Definition Citas Hackaton Notes"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="StructureDefinition-PacienteHackaton-Notes.html"/>
+        <name value="StructureDefinition-PacienteHackaton-Notes.html"/>
+        <title value="Structure Definition Paciente Hackaton Notes"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <sourceUrl value="StructureDefinition-registro-hosp-Notes.html"/>
+        <name value="StructureDefinition-registro-hosp-Notes.html"/>
+        <title value="Structure Definition Registro Hosp Notes"/>
+        <generation value="markdown"/>
+      </page>
     </page>
     <parameter>
       <code>
@@ -679,7 +697,7 @@
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="releaselabel"/>
       </code>
-      <value value="ci-build"/>
+      <value value="release"/>
     </parameter>
     <parameter>
       <code>

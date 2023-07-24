@@ -17,11 +17,11 @@
      fhir:value [ fhir:v "can-bind" ]
   ] ) ; # 
   fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/TipoVia"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
   fhir:name [ fhir:v "TipoVia"] ; # 
   fhir:title [ fhir:v "Tipo de Vía"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-07-24T10:24:09-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-24T11:34:17-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;

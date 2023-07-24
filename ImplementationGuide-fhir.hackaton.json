@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HackatonHLF</h2><p>The official URL for this implementation guide is: </p><pre>https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton</pre><div><p>Guía de Implementación para Hackaton HLF on FHIR. Esta guía determina los artefactos y casos de uso con sus operaciones para los equipos que van a participar de la Hackaton</p>\n</div></div>"
   },
   "url" : "https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "HackatonHLF",
   "title" : "Guía de Implementación Hackathon HLF 2023",
   "status" : "active",
-  "date" : "2023-07-24T10:24:09-04:00",
+  "date" : "2023-07-24T11:34:17-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",

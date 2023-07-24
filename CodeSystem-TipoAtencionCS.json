@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"TipoAtencionCS-1\"> </a></td><td>Abierta</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"TipoAtencionCS-2\"> </a></td><td>Cerrada</td></tr></table></div>"
   },
   "url" : "https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "TipoAtencionCS",
   "title" : "Códigos para Tipo de Atención",
   "status" : "active",

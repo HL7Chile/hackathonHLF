@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-TipoAtencionCS.html\"><code>https://hlf.cl/fhir/ig/hackaton/CodeSystem/TipoAtencionCS</code></a></li></ul></div>"
   },
   "url" : "https://hlf.cl/fhir/ig/hackaton/ValueSet/TipoAtencionVS",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "TipoAtencionVS",
   "title" : "Códigos para tipos de atención",
   "status" : "active",

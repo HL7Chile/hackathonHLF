@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HackatonHLF</h2><p>The official URL for this implementation guide is: </p><pre>https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton</pre><div><p>Guía de Implementación para Hackaton HLF on FHIR. Esta guía determina los artefactos y casos de uso con sus operaciones para los equipos que van a participar de la Hackaton</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hlf.cl/fhir/ig/hackaton/ImplementationGuide/fhir.hackaton"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
   fhir:name [ fhir:v "HackatonHLF"] ; # 
   fhir:title [ fhir:v "Guía de Implementación Hackathon HLF 2023"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-07-24T10:24:09-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-24T11:34:17-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;

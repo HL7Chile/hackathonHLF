@@ -10,11 +10,11 @@
     "valueCode" : "can-bind"
   }],
   "url" : "https://hlf.cl/fhir/ig/hackaton/StructureDefinition/TipoVia",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "TipoVia",
   "title" : "Tipo de Vía",
   "status" : "active",
-  "date" : "2023-07-24T10:24:09-04:00",
+  "date" : "2023-07-24T11:34:17-04:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",

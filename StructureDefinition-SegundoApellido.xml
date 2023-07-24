@@ -13,11 +13,11 @@
     <valueCode value="can-bind"/>
   </extension>
   <url value="https://hlf.cl/fhir/ig/hackaton/StructureDefinition/SegundoApellido"/>
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="SegundoApellido"/>
   <title value="2o Apellido Registrado"/>
   <status value="active"/>
-  <date value="2023-07-24T10:24:09-04:00"/>
+  <date value="2023-07-24T11:34:17-04:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>

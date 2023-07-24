@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HackatonHLF"] ; # 
   fhir:title [ fhir:v "Guía de Implementación Hackathon HLF 2023"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-07-21T15:33:08-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-24T10:24:09-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;
